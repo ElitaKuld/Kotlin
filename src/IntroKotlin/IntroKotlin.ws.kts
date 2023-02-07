@@ -38,16 +38,16 @@ var j = 5
 j = 6 // inga problem
 println(j)
 
-val i2 : Int = 7 // explicit
+val i2: Int = 7 // explicit
 
 val bird = "Koltrast"
 
 i + giveMeFive()
 
-fun giveMefiveWithParameter(x : Int, y : String) = "Hej " + y + ", du sa " + x
+fun giveMefiveWithParameter(x: Int, y: String) = "Hej " + y + ", du sa " + x
 
 giveMefiveWithParameter(23, "Koltrast")
 
-fun giveMefiveWithParameter2(x : Int, y : String) = "Hej $y, du sa $x" // Pythons sätt att ange variabler i en sträng
+fun giveMefiveWithParameter2(x: Int, y: String) = "Hej $y, du sa $x" // Pythons sätt att ange variabler i en sträng
 
 giveMefiveWithParameter2(22, "Blåmes")

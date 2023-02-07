@@ -39,16 +39,16 @@ fun räknaUtOmkretsRektangel2(x: Int, y: Int): Int {
     return 2 * x + 2 * y
 }
 
-räknaUtOmkretsRektangel2(4,5)
+räknaUtOmkretsRektangel2(4, 5)
 
 var i = 5
-var i2 : Int = 9
+var i2: Int = 9
 
 val j = 6
-val j2 : Int = 10
+val j2: Int = 10
 
-räknaUtArea2(i,j)
-räknaUtOmkretsRektangel2(i2,j2)
+räknaUtArea2(i, j)
+räknaUtOmkretsRektangel2(i2, j2)
 
 
 /*
