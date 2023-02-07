@@ -30,7 +30,7 @@ mer funktionell stil att programmera.
 • Om du har funktioner som är skrivna med krullparenteser, kan du skriva om dem med
 kortnotation (=)?
 • Använder du var där du hade kunnat ha val? Använd alltid val där det funkar!
-• Står dina funktioner uppradade ovanför main? Släng in dem i main! Functions are first class
+• Står dina funktioner uppradade ovanför IfElseDemo.main? Släng in dem i IfElseDemo.main! Functions are first class
 citizens.
 • Finns det saker som hade kunnat göras på en rad, men som nu görs på flera rader? (Det är
 inte alltid rätt med allt på en rad, men testa att slå ihop funktionaliteten där det är rimligt

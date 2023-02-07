@@ -1,3 +1,5 @@
+package ifElseDemo
+
 fun comparator(x : Int, y : Int) = if (x<y) "y är störst" else "x är störst"
 
 fun main(){
