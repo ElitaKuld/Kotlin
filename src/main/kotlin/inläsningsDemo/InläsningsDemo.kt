@@ -8,6 +8,7 @@ fun readNumber1() = readln().toInt() // Kotlin sätt att läsa in ett värde
 
 fun readNumber2() = readlnOrNull()?.toInt()
 
+
 fun main(){
     try{
         println(reader())
