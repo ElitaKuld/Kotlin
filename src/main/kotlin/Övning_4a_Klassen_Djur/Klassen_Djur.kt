@@ -3,8 +3,8 @@ package Övning_4a_Klassen_Djur
 interface Printable {
     fun getData()
 }
-class Animal(var type: String, val numberOfLegs : Int) : Printable {
-    override fun getData() = println("Djurets sort: ${type}, antal ben: ${numberOfLegs}")
+class Animal(private var type: String, private val numberOfLegs : Int) : Printable {
+    override fun getData() = println("Djurets sort: $type, antal ben: $numberOfLegs")
 
 }
 
